@@ -44,6 +44,7 @@ public class Main {
         }
 
         //task 8
+        System.out.println();
         int savings = 0;
         for (int i = 1; i <= 12; i++) {
             savings += 29000;
@@ -51,6 +52,7 @@ public class Main {
         }
 
         //task 9
+        System.out.println();
         float savings1 = 0f;
         for (int i = 1; i <= 12; i++) {
             savings1 += 29000;
@@ -58,6 +60,7 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + savings1 + " рублей"); }
 
         //task 10
+        System.out.println();
         int two = 2;
         for (int i = 1; i <= 10; i ++) {
             System.out.println(two + " * " + i + " = " + i * two);
