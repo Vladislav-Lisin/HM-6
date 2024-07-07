@@ -56,13 +56,14 @@ public class Main {
         float savings1 = 0f;
         for (int i = 1; i <= 12; i++) {
             savings1 += 29000;
-            savings1 *= 1.12f;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + savings1 + " рублей"); }
+            savings1 *= 1.01f;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + savings1 + " рублей");
+        }
 
         //task 10
         System.out.println();
         int two = 2;
-        for (int i = 1; i <= 10; i ++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(two + " * " + i + " = " + i * two);
         }
 
